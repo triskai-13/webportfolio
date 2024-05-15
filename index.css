@@ -1,0 +1,178 @@
+body{
+	font-family: 'Cutive';
+	background: #E6E6E6;
+}
+
+#logo{
+font-family: 'Cutive';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 24px;
+
+color: #003363;
+}
+
+nav a{
+	/* About me */
+font-family: 'Cutive';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+text-shadow: -1px -1px;
+
+color: #000 !important;
+}
+
+
+#title{
+font-family: 'Cutive';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 84px;
+
+color: #FFFFFF;
+}
+
+#base{
+font-family: 'Cutive';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+
+color: #FFFFFF;
+background: #000000;
+}
+
+#landing{
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.3),
+		rgba(0, 0, 0, 0.3)
+	),
+	url("./images/landing.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 70vh;
+}
+
+#about{
+	background-image:
+	linear-gradient(to right,
+		#000000, #13030b, #1c0818,
+		#200d24, #1f1233, #19183a,
+		#101d40, #002245, #00253f,
+		#002535, #00242b, #012321);
+}
+
+#text-title{
+font-family: 'Cutive';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 32px;
+
+color: #FFFFFF;
+}
+
+#text-content{
+font-family: 'Cutive';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+
+color: #FFFFFF;
+}
+
+#text-subtitle{
+	font-family: 'Cutive';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 28px;
+
+	color: #FFFFFF;
+}
+
+.h5 .type{
+    padding: 2rem 1rem;
+    width: auto;
+    margin: auto;
+}
+.type h5{
+    width: 12ch;
+    border-right: 3px solid white;
+    margin: 2rem auto;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(12, end), blink-caret 0.5s step-end infinite;
+}
+@-webkit-keyframes typing {
+    from {
+        width: 0;
+    }
+}
+@-webkit-keyframes blink-caret {
+    50% {
+        border-color: transparent;
+    }
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.projects{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.tools{
+	background-image:
+	linear-gradient(to right,
+		#000000, #13030b, #1c0818,
+		#200d24, #1f1233, #19183a,
+		#101d40, #002245, #00253f,
+		#002535, #00242b, #012321);
+}
+
+.fab {
+	font-size: 2rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.btn{
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	margin-top: 10px;
+	background: #14AE88;
+	text-transform: uppercase;
+	border: none;
+}
